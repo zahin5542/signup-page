@@ -1,0 +1,128 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.signup {
+	    width: 100%;
+	}
+
+	.container {
+	    padding: 10px;
+	}
+
+	nav ul li a {
+	    padding: 10px 25px;
+	}
+
+	ul.social-link li {
+	    padding: 0 15px;
+	}
+
+	ul.social-link {
+	    justify-content: flex-start;
+	}
+
+	footer .foot {
+	    width: 100%;
+	    display: block;
+	    padding: 10px 20px;
+
+	}
+
+	ul.footer-menu-flex li a {
+	    padding: 0 20px;
+	}
+
+	.col {
+    	width: 50%;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.signup {
+	    width: 80%;
+	}
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.signup {
+	    width: 85%;
+	}
+	ul.social-link li {
+	    padding: 0 5px;
+	}
+	footer .foot {
+    padding: 0px;
+    width: 50%;
+	    flex: 0 0 auto;
+	}
+	.col {
+    	width: 50%;
+	}
+
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.signup {
+	    width: 65%;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px) {
+	nav ul li a {
+	    padding: 10px 10px;
+	}
+	ul.footer-menu-flex {
+    	display: flex;
+	    flex-direction: column;
+	}
+
+	ul.social-link {
+	    padding: 0 20px;
+	}
+	ul.social-link span {
+	    padding: 0 0px;
+	}
+	.col {
+    	width: 50%;
+	}
+
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+	nav ul li a {
+	    padding: 10px 10px;
+	}
+	ul.footer-menu-flex {
+    	display: flex;
+	    flex-direction: column;
+	}
+
+	ul.social-link {
+	    padding: 0 20px;
+	}
+	ul.social-link span {
+	    padding: 0 0px;
+	}
+	.col {
+    	width: 50%;
+	}
+
+}
